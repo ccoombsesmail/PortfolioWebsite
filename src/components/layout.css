@@ -19,57 +19,19 @@ body {
 
 main {
       height: 6000px;
-
-
-}
-
-
-
-
-@keyframes circle {
-    from { transform:rotate(0deg); }
-    to { transform:rotate(360deg); }
-}
-
-ul {
-    list-style-type: none;
-}
-
-.skills-wrapper {
-    width: 100vw;
-    height: 10vh;
-}
-
-
-
-.skill-circles li {
-    position: absolute;
-    left: 45%;
-    margin-top: 200px;
-    /* margin: 10px auto 0; */
-    animation: circle 8s linear infinite;
-    transform-origin:45% 20vw;
-}
-
-.skill-circles li:nth-child(0){
-    animation-delay: 0s;
+      text-align: center;
 
 }
 
-.skill-circles li:nth-child(1){
-    animation-delay: 2s;
 
+/* .MuiButton-root {
+    margin: 20px;
 }
 
-.skill-circles li:nth-child(2){
-    animation-delay: 4s;
-
-}
-
-.skill-circles li:nth-child(3){
-    animation-delay: 6s;
-
-}
+.MuiButton-sizeLarge{
+    font-size: 20px !important;
+    width: 200px;
+} */
 
 
 
@@ -80,41 +42,6 @@ ul {
   }
 }
 
-.about {
-
-    text-align: center;
-}
-
-.about h1 {
-    display: inline-block;
-    margin-top: 200px;
-    font-size: 3vw;
-    color: #45474A;
-
-}
-.about h2 {
-    display: inline-block;
-    padding-top: 20px;
-    font-size: 1.3vw;
-    color: #45474A;
-
-}
-/* 
-.majorSkills {
-
-    display: inline-flex;
-    margin-top: 300px;
-
-} */
-
-.majorSkills h1 {
-   width: 16%;
-   padding-top: 50%;
-   font-family: monospace;
-   font-size: 2vw;
-
-
-}
 
 
 

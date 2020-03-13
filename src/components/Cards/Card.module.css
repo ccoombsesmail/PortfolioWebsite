@@ -1,7 +1,7 @@
 
 
 
- /* .wrapper {
+.wrapper {
 
     color: black;
     width: 22vw;
@@ -11,24 +11,19 @@
     
     }
     
-    .contents {
+.contents {
     
-        display: inline-block;
-        margin-top: 10%;
-        max-width: 97%;
+    display: inline-flex;
+    max-width: 97%;
 
-     */
-    /* } */
-   
-    
-    .icon {
 
-       
-        width:120px;
-        height: 120px;
-    
-    
-    }
+  } 
+
+.icon {
+    width:120px;
+    height: 120px; 
+}
+
 
    
 

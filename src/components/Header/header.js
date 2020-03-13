@@ -107,9 +107,7 @@ return (
 
 
   <AppBar  onScroll = {this.handleScroll} style = {{backgroundColor: "#5A5FCC"}}  position={this.state.barPosition}>
-
        <HeaderLinks />
-
   </AppBar>
 
 

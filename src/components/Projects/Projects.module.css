@@ -28,3 +28,27 @@
     margin: 5vw;
 
 }
+
+
+ @media only screen and (max-width: 800px) {
+
+
+    .projectsWrapper {
+        flex-direction: column;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    
+    .mediaCardWrapper {
+
+        width: 95vw;
+        margin: 1vw;
+        align-self: center;
+
+    }
+
+    .projectsHeader h1{ 
+    font-size: 7.5vw;
+    }
+ }

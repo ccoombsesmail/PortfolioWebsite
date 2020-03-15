@@ -12,6 +12,11 @@ const useStyles = makeStyles({
     root: {
         maxWidth: 645,
         width: '23vw',
+        ['@media (max-width:780px)']: {
+            width: '95vw',
+            alignSelf: "center",
+
+        }
     },
     media: {
         width: "100%",

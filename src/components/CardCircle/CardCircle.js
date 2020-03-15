@@ -6,8 +6,7 @@ const CardCircle = () => {
 
 
 return (
-
-<div className={styles.skillsWrapper}>
+    <>
     <ul className={styles.skillCircles}>
         <li> <IconCard imgURL="/gatsby-icon.png" /> </li>
         <li> <IconCard imgURL="/react-icon.png" /> </li>
@@ -16,11 +15,12 @@ return (
         <li> <IconCard imgURL="/ruby.png" />  </li>
         <li> <IconCard imgURL="/SQL.png" />  </li>
         <li> <IconCard imgURL="/js.png" />  </li>
-
-
-
     </ul>
-</div>
+    <div>
+        <h1 className={styles.tech}> Technologies</h1>
+    </div>
+    </>
+
 )
 
 }

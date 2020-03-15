@@ -7,32 +7,26 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 6000px;
+  height: 4000px;
   overflow-x: hidden;
 
 }
 
 #___gatsby {
-      height: 6000px;
+      height: 4000px;
 
 }
 
 main {
-      height: 6000px;
+      height: 4000px;
       text-align: center;
 
 }
 
 
-/* .MuiButton-root {
-    margin: 20px;
+.projectsWrapper .MuiPaper-root {
+    margin: 100px;
 }
-
-.MuiButton-sizeLarge{
-    font-size: 20px !important;
-    width: 200px;
-} */
-
 
 
 

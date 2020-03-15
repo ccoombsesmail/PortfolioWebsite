@@ -1,0 +1,30 @@
+.projectsWrapper {
+    display: inline-flex;
+    justify-content: space-evenly;
+    max-width: 98vw;
+}
+
+.projectsHeader{
+    display: flex;
+    margin: 6vh 0;
+    height: 20vh;
+    /* background-color: #663399 ; */
+    background-color: rgb(90,95,204);
+    justify-content: center;
+}
+
+.projectsHeader h1{ 
+    font-size: 2.5vw;
+    color: white;
+    position: relative;
+    align-self: center;
+
+}
+
+
+
+.mediaCardWrapper {
+
+    margin: 5vw;
+
+}

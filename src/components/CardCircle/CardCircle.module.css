@@ -2,11 +2,13 @@ ul {
     list-style-type: none;
 }
 
-.skillsWrapper {
-    width: 70vw;
-    height: 10vh;
-    display: inline-block;
+.tech {
+    position: relative;
+    margin-top: 340px;
+    font-family: monospace;
+    /* color: black !important; */
 }
+
 
 
 
@@ -14,12 +16,15 @@ ul {
     from { transform:rotate(0deg); }
     to { transform:rotate(360deg); }
 }
+.skillCircles {
+    margin-top: 200px;
+    margin-left: 100px;
 
+}
 
 .skillCircles li {
     position: absolute;
-    left: 45%;
-    margin-top: 300px;
+    left: 47%;
     /* margin: 10px auto 0; */
     animation: circle 14s linear infinite;
     transform-origin:45% 20vw;
@@ -71,4 +76,19 @@ ul {
 
 
 
+@media only screen and (max-width: 800px) {
+   .skillCircles li {
+        transform-origin:45% 40vw;
+    }
+}
+   
 
+
+
+
+@media only screen and (max-width: 600px) {
+   .skillCircles li {
+        transform-origin:45% 40vw;
+    }
+}
+   

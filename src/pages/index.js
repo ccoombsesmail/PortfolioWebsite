@@ -9,6 +9,7 @@ import "../components/layout.css"
 import "../../public/show-on-scroll.js"
 import About from "../components/About/About"
 import Skillz from "../components/Skillz/Skillz"
+import Projects from "../components/Projects/Projects";
 
 
 class IndexPage extends React.Component  {
@@ -26,7 +27,7 @@ render() {
     <div className="context">
     <ScrollAnimation animateIn="fadeInUp" >
 
-        <h1>Hi I'm <b style = {{color: "black"}}>Cock</b></h1>
+          <h1>Hi I'm <b style={{ color: "black" }}>Charles</b></h1>
         </ScrollAnimation>
 
     </div>
@@ -65,7 +66,7 @@ render() {
 
       </Skillz>
 
-   
+      <Projects></Projects>
 
     </Layout>
   

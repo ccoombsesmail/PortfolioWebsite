@@ -11,7 +11,7 @@ import "animate.css/animate.min.css";
 
 const About = (props) => {
 
-    return (
+    return ( 
     <div className = {styles.aboutWrapper}>
 
             <div className={styles.headerWrapper}>
@@ -20,16 +20,23 @@ const About = (props) => {
                 </ScrollAnimation>
 
                 <ScrollAnimation animateIn="bounceInRight" animateOut="fadeOut" duration="1" >
-                    <h1 style={{ paddingBottom: '30px' }}> ───── </h1>
+                    <h1 > ───── </h1>
                 </ScrollAnimation>
             </div>
 
             <div className = {styles.imgWrapper}>
-                <Image />
+                {/* <Image /> */}
+                <ScrollAnimation animateIn="rollIn" animateOut="fadeOut" duration="1" >
+                <img className = {styles.bioImage} src = {require("../../images/linkdin.jpg")}/> 
+                </ScrollAnimation>
+
+                <ScrollAnimation style={{ alignSelf: "center"}} animateIn="slideInRight" animateOut="fadeOut" duration="1" >
                 <h2 className={styles.bio}> I'm a full-stack developer living in the San Francisco area. I have a passion for problem solving, 
                     and making things run efficiently while looking great! I have an educational background in Physics and Computer Science, 
                     and have previously worked in the blockchain industry 
                 </h2> 
+                </ScrollAnimation>
+
             </div>
 
         </div>
@@ -41,6 +48,3 @@ const About = (props) => {
 export default About
 
 
-    
-  //   About
-  //   </Typography> */}

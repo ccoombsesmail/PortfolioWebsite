@@ -13,8 +13,24 @@
 
 
 .wrapper h1:first-child {
-    font-size: 3.5vw;
+    font-size: 2.5vw;
     color: #45474A;
     /* padding-bottom: 100px; */
 
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    
+        .cardWrapper {
+            flex-direction: column;
+        }
+
+        .wrapper h1:first-child {
+            font-size: 7.5vw;
+            color: #45474A;
+
+        }
+
+    }

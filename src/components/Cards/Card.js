@@ -35,9 +35,10 @@ const Card = (props) => {
 
 
         <div className = {styles.wrapper} >
-            <div className={styles.content} >
+            <div className={styles.contents}>
                 <img alt="" className={styles.icon} src = {require("../../images" + img2)} />  
                 <h1 > {props.title} </h1>
+                <h3>{props.sub}</h3>
             </div>
         </div>
 

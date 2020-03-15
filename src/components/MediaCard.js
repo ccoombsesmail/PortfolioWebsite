@@ -18,7 +18,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function MediaCard() {
+const MediaCard = (props) => {
   const classes = useStyles();
 
   return (
@@ -26,7 +26,7 @@ export default function MediaCard() {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image={require("../images/linkdin.jpg")}
+          image={require("../images/backend.png")}
           title="Contemplative Reptile"
         />
       </CardActionArea>
@@ -34,3 +34,6 @@ export default function MediaCard() {
   );
 }
 
+
+
+export default MediaCard

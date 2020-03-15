@@ -6,7 +6,7 @@ import Header from "../components/Header/header"
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
 import "../components/layout.css"
-import "../../public/show-on-scroll.js"
+// import "../../public/show-on-scroll.js"
 import About from "../components/About/About"
 import Skillz from "../components/Skillz/Skillz"
 import Projects from "../components/Projects/Projects";

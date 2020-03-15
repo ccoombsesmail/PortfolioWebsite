@@ -9,6 +9,7 @@ import "animate.css/animate.min.css";
 import { withStyles } from '@material-ui/core/styles';
 
 
+// const windowGlobal = typeof window !== 'undefined' && window;
 
 const styles = {
 
@@ -51,29 +52,21 @@ class Header extends React.PureComponent {
   componentDidMount() {
     // document.getElementsByTagName('body')[0].addEventListener('scroll', this.handleScroll, { passive: true });
     window.addEventListener('scroll', this.handleScroll, { passive: true });
-   // var height = document.getElementById('area').offsetHeight;
-    //console.log(height)
-   // console.log("hello")
     var h = document.getElementById('area').offsetHeight
-    console.log(h)
     this.setState({
       barPosition: "relative",
       height: h })
   }
 
   componentWillUnmount() {
-    // window.removeEventListener('scroll', this.handleScroll);
+    window.removeEventListener('scroll', this.handleScroll);
   }
 
    
   handleScroll(evt) {
-
     var lastScroll = window.pageYOffset;
-    console.log(this.state.height, lastScroll)
 
-    // if (lastScroll === this.lastScroll) {
-    //   return;
-    // }
+   
 
     if (lastScroll > this.state.height) {
 

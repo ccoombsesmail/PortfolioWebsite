@@ -9,7 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 
 import "./layout.css"
-import "../../public/show-on-scroll.js"
+// import "../../public/show-on-scroll.js"
 
 const Layout = ({ children }) => {
  

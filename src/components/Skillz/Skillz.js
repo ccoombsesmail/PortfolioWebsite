@@ -11,7 +11,7 @@ import Slider from "../Slider/Slider"
 const Skillz = (props) => {
 
     return (
-    <div className = {styles.wrapper}>
+    <div id = "skills" className = {styles.wrapper}>
         
             <ScrollAnimation animateIn="bounceInLeft" animateOut="fadeOut" duration="1" >
                 <h1> Skills </h1>

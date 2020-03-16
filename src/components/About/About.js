@@ -14,7 +14,7 @@ const About = (props) => {
     return ( 
     <div className = {styles.aboutWrapper}>
 
-            <div className={styles.headerWrapper}>
+            <div id = "about" className={styles.headerWrapper}>
                 <ScrollAnimation animateIn="bounceInLeft" animateOut="fadeOut" duration="1" >
                     <h1> ABOUT </h1>
                 </ScrollAnimation>

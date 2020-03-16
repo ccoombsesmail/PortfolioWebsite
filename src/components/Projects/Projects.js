@@ -9,12 +9,12 @@ const Projects = () => {
 
     return (
 
-       <div>
+        <div id="projects" className = {styles.wrapper}>
             <div className={styles.projectsHeader}>
                 <h1> Projects </h1>
             </div>
             
-            <div className = {styles.projectsWrapper}>
+            <div  className = {styles.projectsWrapper}>
                 <div className = {styles.mediaCardWrapper}>
                     <ScrollAnimation animateIn="fadeInUp" duration="1" >
                         <a style={{ textDecoration: 'none' }} href="https://mystifying-benz-ae46a4.netlify.com/" target="_blank">

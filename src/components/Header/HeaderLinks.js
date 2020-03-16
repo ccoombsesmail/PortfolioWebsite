@@ -1,4 +1,4 @@
-//import { Link } from "gatsby"
+import { Link } from "gatsby"
 import React from "react"
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
@@ -33,6 +33,7 @@ const useStyles = makeStyles(theme => ({
       
       margin: "5px",
       flexBasis: "100px !important",
+      fontWeight: "bold"
     }
   
   }));
@@ -56,8 +57,9 @@ return (
 
   <div className = {classes.toolbar} >
 
-    <Button className={classes.button} size="large" color="inherit"> About </Button>
-    <Button className={classes.button} size="large" color="inherit">Projects</Button>
+    <Link style={{ textDecoration: 'none'}} to="/#about"><Button className={classes.button} size="large" color="black"> About </Button></Link>
+    <Link style={{ textDecoration: 'none' }} to="/#skills"><Button className={classes.button} size="large" color="black">Skills</Button></Link>
+    <Link style={{ textDecoration: 'none' }} to="/#projects"><Button className={classes.button} size="large" color="black">Projects</Button></Link>
     
   </div>
   // <Toolbar  >

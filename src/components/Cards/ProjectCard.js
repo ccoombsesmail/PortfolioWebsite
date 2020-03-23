@@ -11,7 +11,12 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles({
     root: {
         maxWidth: 645,
-        width: '23vw',
+        width: '25vw',
+        ['@media (max-width:1600px)']: {
+            width: '30vw',
+            alignSelf: "center",
+
+        },
         ['@media (max-width:780px)']: {
             width: '95vw',
             alignSelf: "center",
@@ -25,7 +30,16 @@ const useStyles = makeStyles({
     },
     icon: {
         width: '60px',
-        margin: '10px'
+        margin: '10px',
+        ['@media (max-width:1440px)']: {
+            width: '40px'
+
+        }
+    },
+    head :{
+        ['@media (max-width:1440px)']: {
+            fontSize: "1.9vw"
+        }
     }
 });
 
@@ -47,7 +61,7 @@ const MediaCard = (props) => {
                     title="Project"
                 />
                 <CardContent>
-                    <Typography gutterBottom variant="h4" component="h2">
+                    <Typography className = {classes.head} gutterBottom variant="h4" component="h2">
                         {props.title}
                     </Typography>
                     <Typography variant="body1" color="textSecondary" component="p">

@@ -33,7 +33,8 @@ const useStyles = makeStyles(theme => ({
       
       margin: "5px",
       flexBasis: "100px !important",
-      fontWeight: "bold"
+      fontWeight: "bold",
+      color: 'white'
     }
   
   }));

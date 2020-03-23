@@ -16,7 +16,7 @@ const Projects = () => {
             
             <div  className = {styles.projectsWrapper}>
                 <div className = {styles.mediaCardWrapper}>
-                    <ScrollAnimation animateIn="fadeInUp" duration="1" >
+                    <ScrollAnimation animateIn="fadeInLeft" duration="1.5" >
                         <a style={{ textDecoration: 'none' }} href="https://mystifying-benz-ae46a4.netlify.com/" target="_blank">
                         <MediaCard 
                         imgSrc= {require("../../images/algoviz.png")}
@@ -34,7 +34,7 @@ const Projects = () => {
                     </ScrollAnimation>
                 </div>
                 <div className={styles.mediaCardWrapper}>
-                    <ScrollAnimation animateIn="fadeInUp" duration="1" >
+                    <ScrollAnimation animateIn="fadeInUp" duration="1.5" >
                             <MediaCard 
                             imgSrc={require("../../images/dashIoT4.png")} 
                             title="Smart Home Dashboard" 
@@ -50,7 +50,7 @@ const Projects = () => {
 
                 </div>
                 <div className={styles.mediaCardWrapper}>
-                    <ScrollAnimation animateIn="fadeInUp" duration="1" >
+                    <ScrollAnimation animateIn="fadeInRight" duration="1.5" >
                             <MediaCard 
                             imgSrc={require("../../images/portSite.png")} 
                             title="Portfolio Website"

@@ -31,8 +31,14 @@
 
 .mediaCardWrapper {
 
-    margin: 5vw;
+    margin: 4vw;
 
+}
+
+ @media only screen and (max-width: 1600px) {
+     .mediaCardWrapper {
+        margin: 1vw;
+     }
 }
 
 
@@ -49,7 +55,7 @@
     .mediaCardWrapper {
 
         width: 95vw;
-        margin: 1vw;
+        margin: 5vw;
         align-self: center;
 
     }

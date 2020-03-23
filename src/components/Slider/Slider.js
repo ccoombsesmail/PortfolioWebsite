@@ -36,6 +36,9 @@ const Slider = (props) => {
                     <img src={require("../../images/SQL.png")} height="100" width="100" alt="" />
                 </div>
                 <div className={styles.slide}>
+                    <img src={require("../../images/git.png")} height="100" width="100" alt="" />
+                </div> 
+                <div className={styles.slide}>
                     <img src={require("../../images/go.png")} height="100" width="100" alt="" />
                 </div>
                 <div className={styles.slide}>
@@ -55,6 +58,9 @@ const Slider = (props) => {
                 </div>
                 <div className={styles.slide}>
                     <img src={require("../../images/SQL.png")} height="100" width="100" alt="" />
+                </div> 
+                <div className={styles.slide}>
+                    <img src={require("../../images/git.png")} height="100" width="100" alt="" />
                 </div> 
           
             </div>

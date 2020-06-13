@@ -6,7 +6,9 @@
 .projectsWrapper {
     display: inline-flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     max-width: 98vw;
+    padding-bottom: 200px;
 }
 
 .projectsHeader{

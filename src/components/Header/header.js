@@ -65,49 +65,24 @@ class Header extends React.PureComponent {
    
   handleScroll(evt) {
     var lastScroll = window.pageYOffset;
-
-   
-
     if (lastScroll > this.state.height) {
-
       this.setState(  {
         barPosition: "sticky",
       })
-    
-
-    // } else {
-      
-    //   this.setState(  {
-    //     barPosition: "relative",
-
-    //   })
-
 
     }
-
-  
-
     this.lastScroll = lastScroll;
   }
    
   
  
   render() {
-
-
-return (
-  
-
-
-  <AppBar  onScroll = {this.handleScroll} style = {{backgroundColor: "#5A5FCC"}}  position={this.state.barPosition}>
-       <HeaderLinks />
-  </AppBar>
-
-
-
+    
+  return (
+    <AppBar  onScroll = {this.handleScroll} style = {{backgroundColor: "#5A5FCC"}}  position={this.state.barPosition}>
+        <HeaderLinks />
+    </AppBar>
     )
-
-
   }
 }
 Header.propTypes = {

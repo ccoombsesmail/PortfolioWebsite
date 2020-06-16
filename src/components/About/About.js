@@ -27,7 +27,7 @@ const About = (props) => {
             <div className = {styles.imgWrapper}>
                 {/* <Image /> */}
                 <ScrollAnimation animateIn="rollIn" animateOut="fadeOut" duration="1" >
-                <img className = {styles.bioImage} src = {require("../../images/linkdin.jpg")}/> 
+                    <img className = {styles.bioImage} src = {require("../../images/linkdin.jpg")}/> 
                 </ScrollAnimation>
 
                 <ScrollAnimation style={{ alignSelf: "center"}} animateIn="slideInRight" animateOut="fadeOut" duration="1" >

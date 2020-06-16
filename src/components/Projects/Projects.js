@@ -25,7 +25,10 @@ const Projects = () => {
                                 iconSrc1={require("../../images/react-icon.png")}
                                 iconSrc2={require("../../images/js.png")}
                                 iconSrc3={require("../../images/ruby.png")}
-                                iconSrc4={require("../../images/rails.png")}
+                                iconSrc4={require("../../images/railsLogo.png")}
+                                iconSrc5={require("../../images/postgres.png")}
+                                iconSrc6={require("../../images/aws.png")}
+                                iconSrc7={require("../../images/redux.png")}
                                 gitRef="https://github.com/ccoombsesmail/Fidget"
                                 siteURL="https://fidget-tv.herokuapp.com/#/"
                             >
@@ -41,9 +44,10 @@ const Projects = () => {
                                 title="Harmony"
                                 body="Collaborative real-time music making app"
                                 iconSrc1={require("../../images/react-icon.png")}
-                                iconSrc2={require("../../images/js.png")}
-                                iconSrc3={require("../../images/html-icon.png")}
-                                iconSrc4=""  //Enter an empty string if there is no fourth icon.
+                                iconSrc2={require("../../images/redux.png")}
+                                iconSrc3={require("../../images/js.png")}
+                                iconSrc4={require("../../images/mongo.png")}
+                                iconSrc5={require("../../images/html-icon.png")}
                                 gitRef="https://github.com/iProgYou/harmony"
                                 siteURL="http://harmony-music.herokuapp.com/#/"
                             >

@@ -29,10 +29,10 @@ const useStyles = makeStyles({
         
     },
     icon: {
-        width: '60px',
+        width: '35px',
         margin: '10px',
         ['@media (max-width:1440px)']: {
-            width: '40px'
+            width: '25px'
 
         }
     },
@@ -40,6 +40,11 @@ const useStyles = makeStyles({
         ['@media (max-width:1440px)']: {
             fontSize: "1.9vw"
         }
+    },
+    iconWrapper: {
+        display: 'flex',
+        alignItems: 'flex-end',
+        justifyContent: 'center'
     }
 });
 
@@ -49,7 +54,7 @@ const MediaCard = (props) => {
 
     var img4 = <div></div>
     if (props.iconSrc4 != "") {
-        img4 = <img alt="" className={classes.icon} src={props.iconSrc4} />
+        img4 = <img style={{width: '60px'}} alt="" className={classes.icon} src={props.iconSrc4} />
     }
 
     return (
@@ -70,12 +75,16 @@ const MediaCard = (props) => {
                     <Typography gutterBottom variant="h5" component="h2">
                         ──────────────────────
                     </Typography>
-                    <img alt = "" className = {classes.icon} src = {props.iconSrc1} />
-                    <img alt = "" className={classes.icon} src={props.iconSrc2} />
-                    <img alt = "" className={classes.icon} src={props.iconSrc3} />
-                    {/* <img className={classes.icon} src={props.iconSrc4} /> */}
-                    {img4}
-
+                    <div className={classes.iconWrapper}>
+                        <img alt = "" className={classes.icon} src = {props.iconSrc1} />
+                        <img alt = "" className={classes.icon} src={props.iconSrc2} />
+                        <img alt = "" className={classes.icon} src={props.iconSrc3} />
+                        {/* <img className={classes.icon} src={props.iconSrc4} /> */}
+                        {img4}
+                        {props.iconSrc5 ? <img alt="" className={classes.icon} src={props.iconSrc5} /> : null }
+                        {props.iconSrc6 ? <img alt="" className={classes.icon} src={props.iconSrc6} /> : null }
+                        {props.iconSrc7 ? <img alt="" className={classes.icon} src={props.iconSrc7} /> : null }
+                    </div>
                 </CardContent>
             </CardActionArea>
             <CardActions>

@@ -1,12 +1,8 @@
 import { Link } from "gatsby"
 import React from "react"
 import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
-import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 
 
@@ -26,15 +22,27 @@ const useStyles = makeStyles(theme => ({
     toolbar: {
       display: "inline-flex !important",
       width: "100vw",
-      marginLeft: "2vw",
-      justifyContents: "flex-start"
+      justifyContent: "space-between",
+      alignItems: 'center'
     },
     button: {
       
       margin: "5px",
       flexBasis: "100px !important",
       fontWeight: "bold",
-      color: 'white'
+      color: 'white',
+    },
+    left: {
+      marginLeft: '2vw'
+    },
+    right: {
+      marginRight: '2vw',
+      display: 'flex',
+      alignItems: 'center'
+    },
+    icon: {
+      width: '35px',
+      margin: '10px'
     }
   
   }));
@@ -57,30 +65,19 @@ return (
 
 
   <div className = {classes.toolbar} >
-
+    <div className={classes.left}>
     <Link style={{ textDecoration: 'none'}} to="/#about"><Button className={classes.button} size="large" color="black"> About </Button></Link>
     <Link style={{ textDecoration: 'none' }} to="/#skills"><Button className={classes.button} size="large" color="black">Skills</Button></Link>
     <Link style={{ textDecoration: 'none' }} to="/#projects"><Button className={classes.button} size="large" color="black">Projects</Button></Link>
-    
+    </div> 
+
+    <div className={classes.right} >
+      <a style={{ textDecoration: 'none' }} href="https://www.linkedin.com/in/charles-coombs-esmail-1b5a20113/"><img alt="" className={classes.icon} src = {require('../../images/linkedin_icon.png')}/></a>
+      <a style={{ textDecoration: 'none' }} href="https://github.com/ccoombsesmail"><img alt="" className={classes.icon} src = {require('../../images/github-icon.png')}/></a>
+      <a style={{ textDecoration: 'none' }} href="https://angel.co/u/charlie-coombs"><img alt="" className={classes.icon} src = {require('../../images/angelist.png')}/></a>
+    </div>
   </div>
-  // <Toolbar  >
-  //   <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-  //   {menu}
-  //   </IconButton>
-  //   {/* <Typography variant="h6" className={classes.title}>
-  //   About
-  //   </Typography> */}
-  //   <Button  size = "large" color="inherit">About</Button>
-  //   <Button size="large"  color="inherit">Projects</Button>
-  //   <Button size="large" color="inherit">Projects</Button>
-  //   <Button size="large" color="inherit">Projects</Button>
-  //   <Button size="large" color="inherit">Projects</Button>
 
-  //   </Toolbar>
-    
-
-
-     
   )
 }
 

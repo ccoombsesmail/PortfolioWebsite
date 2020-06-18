@@ -54,7 +54,7 @@ const MediaCard = (props) => {
 
     var img4 = <div></div>
     if (props.iconSrc4 != "") {
-        img4 = <img style={{width: '60px'}} alt="" className={classes.icon} src={props.iconSrc4} />
+        img4 = <img alt="" className={classes.icon} src={props.iconSrc4} />
     }
 
     return (
@@ -63,7 +63,7 @@ const MediaCard = (props) => {
                 <CardMedia
                     className={classes.media}
                     image={props.imgSrc}
-                    title="Project"
+                    title={props.siteURL}
                 />
                 <CardContent>
                     <Typography className = {classes.head} gutterBottom variant="h4" component="h2">

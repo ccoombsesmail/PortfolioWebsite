@@ -33,7 +33,7 @@ const About = (props) => {
                 <ScrollAnimation style={{ alignSelf: "center"}} animateIn="slideInRight" animateOut="fadeOut" duration="1" >
                 <h2 className={styles.bio}> I'm a full-stack developer living in the San Francisco area. I have a passion for problem solving, 
                     and making things run efficiently while looking great! I have an educational background in Physics and Computer Science, 
-                    and have previously worked in the blockchain industry 
+                    and have previously worked in the blockchain industry. I am currently looking for a software engineering role in the LA, NYC, or Bay Area. 
                 </h2> 
                 </ScrollAnimation>
 

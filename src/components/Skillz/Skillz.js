@@ -3,11 +3,14 @@ import styles from "./Skillz.module.css"
 import Card from '../Cards/Card'
 import ScrollAnimation from 'react-animate-on-scroll';
 import Slider from "../Slider/Slider"
-
+import TechnologyItem from './TechnologyItem/TechnologyItem'
 
 
 
 const Skillz = (props) => {
+
+  const technologies = ['JavaScript', 'React', 'Redux', 'Node', 'Express', 'Ruby', 'Ruby on Rails', 'Postgres', 'SQL', 
+  'MongoDB', 'AWS S3', 'GO', 'Git', 'HTML5/CSS3', 'WebSockets', 'D3', 'Three.js', 'RSpec']
 
     return (
     <div id = "skills" className = {styles.wrapper}>
@@ -17,8 +20,14 @@ const Skillz = (props) => {
         <ScrollAnimation animateIn="bounceInRight" animateOut="fadeOut" duration="1" >
             <h1 style={{ marginTop: '-1.2vh' }}> ─── </h1>
         </ScrollAnimation>
-
         <Slider></Slider>
+        <div className={styles.technologiesWrapper}>
+        {
+            technologies.map((technology) =>{
+              return <TechnologyItem technology={technology}/>
+            })
+        }
+        </div>
         
         <div className={styles.cardWrapper}>
             <ScrollAnimation animateIn="fadeInUp"  duration = "1" >

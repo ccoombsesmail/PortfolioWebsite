@@ -108,6 +108,7 @@ const Projects = () => {
                 </div> */}
                 <div className={styles.mediaCardWrapper}>
                   <ScrollAnimation animateIn="fadeInUp" duration="1.5" >
+                  <a style={{ textDecoration: 'none' }} href="https://block-scout.herokuapp.com" target="_blank">
                     <MediaCard
                       imgSrc={require("../../images/blockscout.png")}
                       title="Block Scout"
@@ -120,6 +121,7 @@ const Projects = () => {
                       gitRef="https://github.com/ccoombsesmail/EthereumBlockExplorer"
                       siteURL="https://block-scout.herokuapp.com"
                     ></MediaCard>
+                  </a>
                   </ScrollAnimation>
                 </div>
                 <div className={styles.mediaCardWrapper}>

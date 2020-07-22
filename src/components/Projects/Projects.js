@@ -91,7 +91,7 @@ const Projects = () => {
                       </a>
                     </ScrollAnimation>
                 </div>
-                <div className={styles.mediaCardWrapper}>
+                {/* <div className={styles.mediaCardWrapper}>
                     <ScrollAnimation animateIn="fadeInUp" duration="1.5" >
                       <MediaCard 
                       imgSrc={require("../../images/dashIoT4.png")} 
@@ -105,7 +105,22 @@ const Projects = () => {
                       siteURL="https://github.com/ccoombsesmail/HomeIoTFrontend"
                       ></MediaCard>
                     </ScrollAnimation>
-
+                </div> */}
+                <div className={styles.mediaCardWrapper}>
+                  <ScrollAnimation animateIn="fadeInUp" duration="1.5" >
+                    <MediaCard
+                      imgSrc={require("../../images/blockscout.png")}
+                      title="Block Scout"
+                      body="Real-time Ethereum Block Explorer"
+                      iconSrc1={require("../../images/go.png")}
+                      iconSrc2={require("../../images/react-icon.png")}
+                      iconSrc3={require("../../images/js.png")}
+                      iconSrc4={require("../../images/mongoDb.png")}
+                      iconSrc5={require("../../images/html-icon.png")}
+                      gitRef="https://github.com/ccoombsesmail/EthereumBlockExplorer"
+                      siteURL="https://block-scout.herokuapp.com"
+                    ></MediaCard>
+                  </ScrollAnimation>
                 </div>
                 <div className={styles.mediaCardWrapper}>
                     <ScrollAnimation animateIn="fadeInUp" duration="1.5" >

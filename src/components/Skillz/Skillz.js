@@ -34,14 +34,14 @@ const Skillz = (props) => {
             <Card 
             imgURL = "/backend.png" 
             title = "Backend"
-            sub= "Experience with Node.js/Express, Ruby on Rails, and some knowledge of lower level languages such as GO and Rust" />
+            sub= "Experience with Golang, Ruby on Rails/Ruby, Node.js/Express, and some knowledge of Rust and Python" />
             </ScrollAnimation>
 
             <ScrollAnimation animateIn="fadeInUp"  duration = "1" delay = "200" >
             <Card 
             imgURL = "/front-end.png" 
             title = "Front-End"
-            sub= "Proficient in Javascript and HTML/CSS3, along with modern front-end frameworks such as React/Redux"/>
+            sub= "Proficient in Javascript/ES6+ and HTML/CSS3, along with modern front-end frameworks such as React/Redux"/>
             </ScrollAnimation>
 
             <ScrollAnimation animateIn="fadeInUp"  duration = "1" delay = "400" >

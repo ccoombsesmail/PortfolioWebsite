@@ -39,52 +39,39 @@
 
 
 
-    
-     @media only screen and (max-width: 600px) {
-    
-        .wrapper {
-            width: 100%;
-            max-width: 95vw;
-            margin-bottom: 30%;
-            height: 35vh;
-            margin: 0px;
-    
-    
-        }
-        .icon{
-            width:80px;
-            height: 80px;
-        }
 
-        .wrapper h3{
-        max-width: 100%;
-        font-weight: lighter;
-        font-size: 3.5vw;
-        }
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    width: 100%;
+    max-width: 95vw;
+    margin-bottom: 30%;
+    height: 35vh;
+    margin: 0px;
+  }
+  .icon{
+    width:80px;
+    height: 80px;
+  }
+  .wrapper h3{
+  max-width: 100%;
+  font-weight: lighter;
+  font-size: 3.5vw;
+  }
 
-         .wrapper h1{
-        font-size: 5.5vw;
-        }
+  .wrapper h1{
+  font-size: 5.5vw;
+  }
+}
+
+  
 
 
-      }
-    
-     
-    
-    
-        @media only screen and (max-width: 350px) {
-    
-            .wrapper {
-        
-                width: 100%;
-                margin-bottom: 60%;
-        
-            }
-        
-        
-        
-    
-    }
-    
+@media only screen and (max-width: 350px) {
+  .wrapper {
+    width: 100%;
+    margin-bottom: 60%;
+  }
+}
+
     
     

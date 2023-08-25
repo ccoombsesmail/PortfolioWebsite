@@ -12,6 +12,7 @@ const useStyles = makeStyles({
     root: {
         maxWidth: 645,
         width: '25vw',
+        minHeight: 552,
         ['@media (max-width:1600px)']: {
             width: '30vw',
             alignSelf: "center",
@@ -84,6 +85,8 @@ const MediaCard = (props) => {
                         {props.iconSrc5 ? <img alt="" className={classes.icon} src={props.iconSrc5} /> : null }
                         {props.iconSrc6 ? <img alt="" className={classes.icon} src={props.iconSrc6} /> : null }
                         {props.iconSrc7 ? <img alt="" className={classes.icon} src={props.iconSrc7} /> : null }
+                        {props.iconSrc8 ? <img alt="" className={classes.icon} src={props.iconSrc8} /> : null }
+
                     </div>
                 </CardContent>
             </CardActionArea>

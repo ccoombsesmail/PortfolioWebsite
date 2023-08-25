@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../Skillz.module.css'
+import * as styles from '../Skillz.module.css'
 
 
 

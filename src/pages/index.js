@@ -52,14 +52,6 @@ render() {
 
     <Header />
 
-    {/* <div className = "about" > */}
-  
-      {/* <ScrollAnimation animateIn="fadeInUp" animateOut ="fadeOut" duration = "1" >
-      <h2> Full-stack web developer with a focus on sucking <b style = {{color: "black"}}>cock</b> {/* dynamic and responsive websites, efficient frameworks, and modular code  </h2>
-      </ScrollAnimation> }*/}
-
-    {/* </div> */}
-
     <About></About>
 
       <Skillz>

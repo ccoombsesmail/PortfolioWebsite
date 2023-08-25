@@ -33,7 +33,7 @@
   align-items: center;
   justify-content: center;
   background-color: #dbd5d5;
-  width: 130px;
+  width: 204px;
   height: 30px;
   border-radius: 10px;
   margin: 5px;
@@ -42,13 +42,15 @@
 	-moz-transition: transform .2s linear;
 	-o-transition: transform .2s linear;
 	transition: transform .2s linear;
+  cursor: pointer;
 }
 
 .itemWrapper:hover {
-  -webkit-transform: scale(1.2);
-	-moz-transform: scale(1.2);
-	-o-transform: scale(1.2);
-	transform: scale(1.2);
+  transition: all 1s;
+  -webkit-transform: scale(1.04);
+	-moz-transform: scale(1.04);
+	-o-transform: scale(1.04);
+	transform: scale(1.04);
 }
 
 .technology {

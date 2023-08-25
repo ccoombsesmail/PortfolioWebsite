@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Card.module.css"
+import * as styles from "./Card.module.css"
 
 const Card = (props) => {
 
@@ -36,7 +36,7 @@ const Card = (props) => {
 
         <div className = {styles.wrapper} >
             <div className={styles.contents}>
-                <img alt="" className={styles.icon} src = {require("../../images" + img2)} />  
+                <img alt="" className={styles.icon} src = {props.img} />  
                 <h1 > {props.title} </h1>
                 <h3>{props.sub}</h3>
             </div>

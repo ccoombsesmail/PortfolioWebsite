@@ -1,6 +1,5 @@
 import React from "react";
 import * as styles from "./About.module.css"
-import Image from "../image"
 import Typography from '@material-ui/core/Typography';
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";

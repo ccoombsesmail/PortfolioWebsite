@@ -21,8 +21,6 @@ render() {
    
   <Layout>
 
-    <SEO title="Home" />
-
 
     <div className="context">
     <ScrollAnimation animateIn="fadeInUp" >

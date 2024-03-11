@@ -11,9 +11,9 @@
     "gatsby-source-filesystem": "^5.13.1",
     "prop-types": "^15.7.2",
     "querystring-es3": "^0.2.1",
-    "react": "^18.2.0",
-    "react-animate-on-scroll": "^2.1.5",
-    "react-dom": "^18.2.0",
+    "react": "18.2.0",
+    "react-animate-on-scroll": "^2.1.7",
+    "react-dom": "18.2.0",
     "react-helmet": "^6.1.0",
     "smooth-scroll": "^16.1.2"
   },

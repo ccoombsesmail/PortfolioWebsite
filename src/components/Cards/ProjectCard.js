@@ -27,7 +27,7 @@ const useStyles = makeStyles({
     media: {
         width: "100%",
         height: '30vh'
-        
+
     },
     icon: {
         width: '35px',
@@ -91,12 +91,12 @@ const MediaCard = (props) => {
                 </CardContent>
             </CardActionArea>
             <CardActions>
-                <Button href= {props.gitRef} size="small" color="primary">
-                    Github
-                </Button>
-                <Button href= {props.siteURL} size="small" color="primary">
-                    Check it out
-                </Button>
+                {/*<Button href= {props.gitRef} size="small" color="primary">*/}
+                {/*    Github*/}
+                {/*</Button>*/}
+                {/*<Button href= {props.siteURL} size="small" color="primary">*/}
+                {/*    Check it out*/}
+                {/*</Button>*/}
             </CardActions>
         </Card>
     );

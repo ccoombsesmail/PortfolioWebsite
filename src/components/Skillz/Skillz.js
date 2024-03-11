@@ -12,8 +12,8 @@ const Skillz = (props) => {
 
   const technologies = [
     'Scala',
-    'JavaScript',
-    'React / Redux',
+    'JavaScript/TypeScript',
+    'React / Redux / Next',
     'PostgreSQL',
     'Kafka',
     'Functional Programming',
@@ -61,7 +61,7 @@ const Skillz = (props) => {
           <Card
             img={frontendImg}
             title="Front-End"
-            sub="Proficient in React/Redux, HTML5/CSS3, and frontend build tools like Webpack and Vite"
+            sub="Proficient in Typescript, React/Redux/Next, HTML5/CSS3, and frontend build tools like Webpack and Vite"
           />
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" duration="1" delay="400">

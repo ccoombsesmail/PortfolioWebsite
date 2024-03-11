@@ -35,11 +35,12 @@ const Projects = () => {
       <div className={styles.projectsHeader}>
         <h1> Projects </h1>
       </div>
-      
+      <h4>Note: These Are Personal Projects, Some Of Which I Built Years Ago. As Such Some Are No Longer Hosted</h4>
+
       <div className={styles.projectsWrapper}>
         <div className={styles.mediaCardWrapper}>
           <ScrollAnimation animateIn="fadeInUp" duration="1.5">
-            <a style={{ textDecoration: 'none' }} href="https://app.guidde.com/playbooks/7xNCKF3X1CeMhGCjFVk2tw?origin=DXoNKgFtUoUkeAfGi47TodJ8SQx1" target="_blank" rel="noopener noreferrer">
+            <a style={{ textDecoration: 'none' }} href="https://github.com/ccoombsesmail/civil_backend_main" target="_blank" rel="noopener noreferrer">
               <MediaCard
                 imgSrc={civilImg}
                 title="Civil"
@@ -52,8 +53,7 @@ const Projects = () => {
                 iconSrc6={postgresIcon}
                 iconSrc7={awsIcon}
                 iconSrc8={kafkaIcon}
-                gitRef="https://github.com/ccoombsesmail"
-                siteURL="https://app.guidde.com/playbooks/7xNCKF3X1CeMhGCjFVk2tw?origin=DXoNKgFtUoUkeAfGi47TodJ8SQx1"
+                siteURL="https://github.com/ccoombsesmail"
               />
             </a>
           </ScrollAnimation>
